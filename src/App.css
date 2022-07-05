@@ -1,3 +1,77 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.switch {
+  background-color: white;
+  border: none;
+  align-self: flex-end; 
+}
+
+.cards {
+  display: flex;
+  padding: 20px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.item-card {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.img-card {
+  max-width: 200px;
+}
+
+.lists {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.item-list {
+  display: flex;
+  justify-content: space-between;
+  height: 100px;
+  background-color: #F2F2F2;
+  border-bottom: white solid;
+}
+
+.img-list {
+  max-width: 100px;
+  height: 100%;
+}
+
 .App {
   text-align: center;
 }
